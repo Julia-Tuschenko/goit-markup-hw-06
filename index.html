@@ -401,9 +401,12 @@
                <h3 class="form-title">Подпишитесь на рассылку</h3>
                <form class="footer-form" name="">
                    <input class="footer-input" type="email" name="email" placeholder="E-mail">
-                   <button class="subscribe" type="submit">Подписаться</button>
+                   <button class="subscribe" type="submit">Подписаться
+                    <svg class="subscribe-icon" width="24", height="24">
+                        <use href="./images/icon/sprite.svg#icon-send" ></use>
+                    </svg>
+                   </button>
                </form>
-
            </div>
         </div>
     </footer>
@@ -415,6 +418,24 @@
                     <use href="./images/icon/sprite.svg#icon-dagger" ></use>
                 </svg>
             </button>
+            <div class="modal-body">
+                <h1 class="modal-title">Оставьте свои данные, мы вам перезвоним</h1>
+                <div class="form-group" role="group">
+                    <label class="">
+                        Имя
+                        <input type="text" name="username" >
+                    </label>
+                    <label>
+                        Телефон
+                        <input type="tel" name="tel" >
+                    </label>
+                    <label>
+                        Почта
+                        <input type="email" name="email" >
+                    </label>
+                </div>
+            </div>
+
         </div>
     </div>
 
