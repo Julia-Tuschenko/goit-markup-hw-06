@@ -411,30 +411,32 @@
         </div>
     </footer>
 
-    <div class="backdrop is-hidden " data-modal>
+    <div class="backdrop " data-modal>
         <div class="modal ">
             <button type="button" class="modal-button" data-modal-close>
                 <svg class="modal-icon" width="11", height="11">
                     <use href="./images/icon/sprite.svg#icon-dagger" ></use>
                 </svg>
             </button>
-            <div class="modal-body">
-                <h1 class="modal-title">Оставьте свои данные, мы вам перезвоним</h1>
-                <div class="form-group" role="group">
-                    <label class="">
-                        Имя
-                        <input type="text" name="username" >
-                    </label>
-                    <label>
-                        Телефон
-                        <input type="tel" name="tel" >
-                    </label>
-                    <label>
-                        Почта
-                        <input type="email" name="email" >
-                    </label>
-                </div>
-            </div>
+            <form action="#" class="modal-form">
+                <p class="modal-form-heat">Оставьте свои данные, мы вам перезвоним</p>
+                <label class="modal-form-field">
+                    Имя
+                    <input type="text" name="user-name" class="modal-form-imput">
+                </label>
+                <label class="modal-form-field">
+                    Телефон
+                    <input type="tel" name="tel" class="modal-form-imput">
+                </label>
+                <label class="modal-form-field">
+                    Почта
+                    <input type="email" name="email" class="modal-form-imput">
+                </label>
+                <label class="modal-form-field">
+                    Комментарий
+                    <textarea name=""></textarea>
+                </label>
+            </form>            
 
         </div>
     </div>

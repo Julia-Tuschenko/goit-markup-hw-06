@@ -884,39 +884,5 @@ img{
     pointer-events: none;
 }
 
-.modal-body{
-    margin: 40px;
-}
 
-.modal-title{
-    margin-bottom: 12px;
 
-    font-family: var(--main-font);
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.15;
-    text-align: center;
-    letter-spacing: 0.03em;
-
-    color: var(--title-text-colot);
-}
-
-label{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-
-    font-family: var(--main-font);
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.16;
-    letter-spacing: 0.01em;
-
-    color: #757575;
-}
-
-input{
-    
-    border: 1px solid rgba(33, 33, 33, 0.2);
-    border-radius: 4px;
-}
