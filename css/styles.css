@@ -55,6 +55,8 @@ img{
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
+
+
 /*============header============*/
 
 
@@ -654,6 +656,15 @@ img{
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
+    color: var(--primary-bg-color);
+}
+
+.footer-input:focus{
+    outline: none;
+    border-color: var(--primary-bg-color);
+    background-color: transparent;
+    color: var(--primary-bg-color);
+
 }
 
 .subscribe{
@@ -968,4 +979,75 @@ img{
     left: 12px;
     width: 18px;
     height: 18px; 
+}
+
+.modal-form-checkbox:checked + .modal-form-checkbox-label::before {
+    background-image: url(../images/icon/icon\ check.svg);
+    background-position: 50% 50%;
+    border-color:var(--accent-color) ;
+    background-color: var(--accent-color);
+}
+
+.modal-form-checkbox:focus + .modal-form-checkbox-label::before {
+    outline: 2px solid #2196F3;
+}
+
+.modal-form-checkbox{
+    transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.modal-form-checkbox-label {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+  
+.modal-form-checkbox-label::before {
+    display: block;
+    content: "";
+    width: 16px;
+    height: 15px;
+    border: 2px solid #212121;
+    cursor: pointer;
+    margin-right: 8px;
+    border-radius: 4px;
+}
+
+.modal-form-checkbox-label{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+
+.modal-form-button{
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    letter-spacing: 0.06em;
+    cursor:pointer;
+    
+    color: var(--primary-bg-color);
+    
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-color: transparent;
 }
