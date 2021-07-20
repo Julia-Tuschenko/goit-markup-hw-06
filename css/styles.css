@@ -645,7 +645,6 @@ img{
 
 .footer-label{
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -673,6 +672,7 @@ img{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 29px;
+    margin-left: 12px;
 
     font-family: var(--main-font);
     font-weight: 700;
